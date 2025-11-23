@@ -56,6 +56,7 @@ Vagrant.configure("2") do |config|
     # Docker Engine 및 Docker Compose Plugin 설치
     apt-get update
     apt-get install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
+    apt-get install -y openjdk-17-jdk
 
     # vagrant 사용자를 docker 그룹에 추가 (sudo 없이 docker 실행 가능하도록)
     usermod -aG docker vagrant
