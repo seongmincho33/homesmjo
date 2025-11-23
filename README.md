@@ -63,15 +63,22 @@ cd homesmjo
 vagrant up
 ```
 
-### Step 3. 접속 테스트
-설치가 완료되면 브라우저에서 아래 주소로 접속해 보세요.
+### Step 3. 서비스 시작 (Docker Containers)
+가상 머신이 켜졌다면, **가상 머신 내부로 접속**하여 **Jenkins와 Database**를 실행해야 합니다.
+*(Backend와 Frontend는 나중에 Jenkins가 자동으로 배포합니다)*
 
-| 서비스 | 주소 | 설명 |
-| :--- | :--- | :--- |
-| 🏠 **홈페이지** | [http://localhost](http://localhost) | Frontend (React) |
-| 🛠️ **젠킨스** | [http://localhost:9090](http://localhost:9090) | 배포 관리 도구 |
-| 📦 **백엔드 API** | [http://localhost:8080](http://localhost:8080) | Spring Boot |
-| 🗄️ **데이터베이스** | `localhost:5432` | PostgreSQL |
+1. **가상 머신 접속**:
+   ```bash
+   vagrant ssh
+   ```
+2. **서비스 실행 폴더로 이동**:
+   ```bash
+   cd /home/vagrant/project/cicd
+   ```
+3. **Jenkins & DB 실행**:
+   ```bash
+   docker compose up -d jenkins postgres
+   ```
 
 ---
 

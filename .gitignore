@@ -1,0 +1,37 @@
+# Vagrant
+.vagrant/
+*.log
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Java / Spring Boot (Backend)
+backend/build/
+backend/bin/
+backend/.gradle/
+backend/out/
+*.class
+*.jar
+*.war
+
+# React / Node (Frontend)
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# Database & Data
+postgres_data/
+cicd/jenkins_home/
+
+# Logs
+logs/
+*.log

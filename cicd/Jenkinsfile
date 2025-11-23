@@ -20,7 +20,7 @@ pipeline {
                 script {
                     echo 'Building Backend Docker Image...'
                     // Build the backend service using docker compose
-                    sh 'docker compose build backend'
+                    sh 'cd cicd && docker compose build backend'
                 }
             }
         }
@@ -33,7 +33,7 @@ pipeline {
                     // -d: Detached mode
                     // --no-deps: Don't restart dependent services (like nginx/postgres) unless necessary
                     // backend: Only target the backend service
-                    sh 'docker compose up -d backend'
+                    sh 'cd cicd && docker compose up -d backend'
                     
                     // Optional: Prune old images to save space
                     sh 'docker image prune -f'
