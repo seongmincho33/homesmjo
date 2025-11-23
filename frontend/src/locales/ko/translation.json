@@ -1,0 +1,45 @@
+{
+    "app": {
+        "title": "세계 정세",
+        "subtitle": "/// 글로벌 인텔리전스 대시보드_",
+        "systemStatus": "시스템 상태",
+        "online": "온라인"
+    },
+    "home": {
+        "hubTitle": "우리_허브",
+        "ourUniverse": "우리의 우주",
+        "welcomeMessage": "우리의 미래, 추억, 그리고 세상을 위한 공유 디지털 공간입니다.",
+        "cards": {
+            "economy": {
+                "title": "세계 정세",
+                "description": "글로벌 경제 지표, 분쟁 지역 및 전략적 인사이트.",
+                "action": "대시보드 입장"
+            },
+            "memory": {
+                "title": "추억 보관소",
+                "description": "우리의 소중한 순간, 사진, 그리고 이정표들의 모음.",
+                "action": "준비 중"
+            }
+        },
+        "footer": "EST. 2025 • 사랑으로 제작됨"
+    },
+    "dashboard": {
+        "returnToHub": "허브로 돌아가기",
+        "liveMapFeed": "실시간 지도 피드",
+        "marketData": "시장 데이터",
+        "strategicInsights": "전략적 인사이트",
+        "syncing": "동기화 중...",
+        "decrypting": "복호화 중..."
+    },
+    "settings": {
+        "title": "설정",
+        "language": {
+            "title": "언어"
+        },
+        "theme": {
+            "title": "화면 테마",
+            "dark": "다크 모드",
+            "light": "라이트 모드"
+        }
+    }
+}

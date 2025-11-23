@@ -1,0 +1,45 @@
+{
+  "app": {
+    "title": "WORLD SITUATION",
+    "subtitle": "/// Global Intelligence Dashboard_",
+    "systemStatus": "SYSTEM STATUS",
+    "online": "ONLINE"
+  },
+  "home": {
+    "hubTitle": "US_HUB",
+    "ourUniverse": "OUR UNIVERSE",
+    "welcomeMessage": "A shared digital space for our future, our memories, and our world.",
+    "cards": {
+      "economy": {
+        "title": "World Situation",
+        "description": "Global economic indicators, conflict zones, and strategic insights.",
+        "action": "ENTER DASHBOARD"
+      },
+      "memory": {
+        "title": "Memory Archive",
+        "description": "A collection of our cherished moments, photos, and milestones.",
+        "action": "COMING SOON"
+      }
+    },
+    "footer": "EST. 2025 • BUILT WITH LOVE"
+  },
+  "dashboard": {
+    "returnToHub": "RETURN TO HUB",
+    "liveMapFeed": "LIVE MAP FEED",
+    "marketData": "MARKET DATA",
+    "strategicInsights": "STRATEGIC INSIGHTS",
+    "syncing": "Syncing...",
+    "decrypting": "Decrypting..."
+  },
+  "settings": {
+    "title": "SETTINGS",
+    "language": {
+      "title": "Language"
+    },
+    "theme": {
+      "title": "Appearance",
+      "dark": "Dark Mode",
+      "light": "Light Mode"
+    }
+  }
+}
